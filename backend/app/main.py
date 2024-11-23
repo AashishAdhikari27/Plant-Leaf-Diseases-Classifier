@@ -22,10 +22,6 @@ model = tf.keras.models.load_model("../plant_disease_prediction_model.h5")
 
 
 
-    
-
-
-
 # Load class indices from JSON
 with open('../class_indices.json') as f:
     class_indices = json.load(f)
