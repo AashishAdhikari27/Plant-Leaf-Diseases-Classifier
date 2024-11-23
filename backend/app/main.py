@@ -17,7 +17,7 @@ app = FastAPI()
 
 
 
-model = tf.keras.models.load_model("../plant_disease_prediction_model.h5")
+model = tf.keras.models.load_model("../models/plant_disease_prediction_model.h5")
 
 
 
